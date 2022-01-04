@@ -1,5 +1,5 @@
 {% set name = "autoreject" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 20c17282b0c72802dfa4c49235830b26bf8d637b39c20f4fa38534b3a84f7901
+  sha256: 26e7e17fa57b78bad23d6e5a1b6eb8a4558fb6cb331953605f1ad9d7b085d3f5
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -42,7 +42,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Automatically reject bad trials and repair bad sensors in M/EEG data.'
+  summary: Automatically reject bad trials and repair bad sensors in M/EEG data.
   dev_url: https://github.com/autoreject/autoreject
 
 extra:
