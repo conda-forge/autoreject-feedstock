@@ -1,5 +1,5 @@
 {% set name = "autoreject" %}
-{% set version = "0.3" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 26e7e17fa57b78bad23d6e5a1b6eb8a4558fb6cb331953605f1ad9d7b085d3f5
+  sha256: 7235d94230ec3fa3832511f0550d755a3e39b1fae3e744775034ca6d3c700eac
 
 build:
   noarch: python
@@ -48,3 +48,4 @@ about:
 extra:
   recipe-maintainers:
     - hoechenberger
+    - larsoner
