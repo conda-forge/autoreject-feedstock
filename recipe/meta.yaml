@@ -27,7 +27,7 @@ requirements:
     - joblib
     - matplotlib-base >=3.3
     - tqdm
-    - h5py
+    - h5io
 
 test:
   imports:
