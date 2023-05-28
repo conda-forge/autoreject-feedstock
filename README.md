@@ -1,11 +1,11 @@
-About autoreject
-================
+About autoreject-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autoreject-feedstock/blob/main/LICENSE.txt)
 
 Home: https://autoreject.github.io
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autoreject-feedstock/blob/main/LICENSE.txt)
 
 Summary: Automatically reject bad trials and repair bad sensors in M/EEG data.
 
