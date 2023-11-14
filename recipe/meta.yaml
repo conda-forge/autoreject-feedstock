@@ -1,5 +1,5 @@
 {% set name = "autoreject" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3984d328bbc26485b4abae61f91b786f457a3a1dcea92b162fc9b29b1b1e2713
+  sha256: bd977ea3c88dc68550fbd5dbb98515b3b811907ba78afe8e412632edde6c8fc5
 
 build:
   noarch: python
