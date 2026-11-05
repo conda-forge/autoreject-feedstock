@@ -1,5 +1,5 @@
 {% set name = "autoreject" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 202d4904e31ddce022c47bca4f7a78f83d92644039750cdb6a56b9b76539e41d
+  sha256: b5ad629f9a644cb851ba90754cc33fd1b97e7a8b496f996357205c69fd06eb7f
 
 build:
   noarch: python
